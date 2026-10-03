@@ -1,0 +1,22 @@
+{
+  "signers": [
+    {
+      "id": "alice",
+      "weight": 2
+    },
+    {
+      "id": "bob",
+      "weight": 1
+    }
+  ],
+  "threshold": 2,
+  "proposals": [
+    {
+      "id": "p",
+      "approvals": [
+        "bob",
+        "bob"
+      ]
+    }
+  ]
+}

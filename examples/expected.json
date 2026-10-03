@@ -1,0 +1,23 @@
+{
+  "proposals": [
+    {
+      "authorized": false,
+      "duplicates": 1,
+      "id": "p",
+      "weight": 1
+    }
+  ],
+  "removal_analysis": [
+    {
+      "reachable": false,
+      "remaining_weight": 1,
+      "signer": "alice"
+    },
+    {
+      "reachable": true,
+      "remaining_weight": 2,
+      "signer": "bob"
+    }
+  ],
+  "total_weight": 3
+}
